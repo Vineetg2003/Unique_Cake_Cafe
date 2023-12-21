@@ -10,7 +10,7 @@
     
     $subject ="Unique Cake Cafe";
     $fromname ="My Website Name";
-    $fromemail = 'kr329004@gmail.com';  //if u dont have an email create one on your cpanel
+    $fromemail = 'https://formsubmit.co/el/funefu';  //if u dont have an email create one on your cpanel
 
     $mailto = 'vineetgoyal130@gmail.com';  //the email which u want to recv this email
 
