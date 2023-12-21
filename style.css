@@ -195,28 +195,32 @@ section {
     display: flex;
     align-items: center;
 }
-
 .product .product-row .box {
     display: flex;
     flex-direction: column;
     width: 50rem;
+    max-width: 100%; /* Ensure it doesn't exceed the parent width */
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--white);
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    /* color: 2px solid red; */
+    padding: 2rem; /* Adjusted padding for space */
     gap: 1.5rem;
     border-radius: 3rem;
     margin-right: 3rem;
-
+    overflow: hidden; /* Prevent content overflow */
+ 
+    /* Add a border to help visualize the box */
+   
+    transition: all 0.3s ease; /* Smooth transition for the box shadow */
 }
 
 .product .product-row .box:hover {
-    box-shadow: 0px 0px 10px rgb(210, 6, 228);
-
+    border: 3px solid rgb(152, 20, 204);
 }
+
+
 
 .product .product-row .img img {
     width: 250px;
