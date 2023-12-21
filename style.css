@@ -195,25 +195,30 @@ section {
     display: flex;
     align-items: center;
 }
+
 .product .product-row .box {
     display: flex;
     flex-direction: column;
     width: 50rem;
-    max-width: 100%; /* Ensure it doesn't exceed the parent width */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the parent width */
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--white);
     align-items: center;
     text-align: center;
-    padding: 2rem; /* Adjusted padding for space */
+    padding: 2rem;
+    /* Adjusted padding for space */
     gap: 1.5rem;
     border-radius: 3rem;
     margin-right: 3rem;
-    overflow: hidden; /* Prevent content overflow */
- 
+    overflow: hidden;
+    /* Prevent content overflow */
+
     /* Add a border to help visualize the box */
-   
-    transition: all 0.3s ease; /* Smooth transition for the box shadow */
+
+    transition: all 0.3s ease;
+    /* Smooth transition for the box shadow */
 }
 
 .product .product-row .box:hover {
@@ -686,15 +691,15 @@ section {
     cursor: pointer;
     border: 2px solid black;
 }
-.btn{
-display: inline-block;
-padding: 1rem 2.8rem;
 
-border-radius: 4rem;
-box-shadow: 0 0 .8rem pink
-font-size: 1.6rem;
-color: var(--secong-bg-color);
-letter-spacing: .1rem;
-font-weight: 600;
-transition: all .5s ease;
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+
+    border-radius: 4rem;
+    box-shadow: 0 0 .8rem pink font-size: 1.6rem;
+    color: var(--secong-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: all .5s ease;
 }
