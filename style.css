@@ -133,7 +133,7 @@ html::-webkit-scrollbar-thumb {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/final\ bg.jpg) no-repeat;
+    background: url(images/banner1.png) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -301,7 +301,7 @@ section {
     width: 500px;
     height: 500px;
     border-radius: 50%; /* Set border-radius to 50% for a circular shape */
-    overflow: hidden
+    overflow: hidden;
     object-fit: cover; 
     /* padding: 5rem; */
     padding-left: 5rem;
@@ -689,6 +689,75 @@ section {
         text-align: center;
         margin: 2rem;
     }
+}
+@media (max-width:455px) {
+    .home {
+        min-height: 100vh;
+        display: flex;
+        margin-bottom: 10rem;
+        align-items: center;
+        background: url(images/samll\ banner7.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .home .homeContent p {
+        font-size: 1.4rem;
+        line-height: 1;
+        margin-bottom: 2rem;
+    }
+}
+.egg {
+    font-size: 7rem;
+    text-shadow: 2px 2px 4px pink;
+}
+
+
+
+@media (max-width: 410px) {
+    .egg {
+        font-size: 30px;
+        text-shadow: 2px 2px 4px pink;
+    }
+    
+    .home .homeContent h2 {
+        font-size: 5rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+        line-height: 7rem;
+        color: var(--black);
+        text-shadow: var(--box-shadow);
+    }
+    .home .homeContent .home-btn {
+        height: 3rem;
+        margin-bottom: 12rem;
+    }
+    
+    
+    .home .homeContent p {
+        font-size: 1.8rem;
+        line-height: 2;
+        /* margin-bottom: 2rem; */
+    }
+    
+    
+}
+@media (max-width:337px) {
+    .home .homeContent h2 {
+        font-size: 4rem;
+        font-weight: bolder;
+        margin-bottom: 1.7rem;
+        line-height: 5rem;
+        color: var(--black);
+        text-shadow: var(--box-shadow);
+    }
+     
+    .home .homeContent p {
+        font-size: 1.4rem;
+        line-height: 2;
+        margin-bottom: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
 }
 
 /* Contact Section  */
