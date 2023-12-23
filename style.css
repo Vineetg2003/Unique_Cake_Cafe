@@ -224,6 +224,13 @@ section {
 .product .product-row .box:hover {
     border: 3px solid rgb(152, 20, 204);
 }
+#footer_logo{
+    width: 90px;
+    margin: 2rem;
+    height: 90px;
+    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+    overflow: hidden
+}
 
 
 
@@ -294,7 +301,7 @@ section {
     width: 500px;
     height: 500px;
     border-radius: 50%; /* Set border-radius to 50% for a circular shape */
-    /* overflow: hidden */
+    overflow: hidden
     object-fit: cover; 
     /* padding: 5rem; */
     padding-left: 5rem;
@@ -456,6 +463,9 @@ section {
 .footer .box-container .mainBox p {
     font-size: 1.7rem;
     line-height: 1.3;
+    text-align: center;
+    margin: 2rem;
+    font-weight:800;
     margin-bottom: 2rem;
 }
 

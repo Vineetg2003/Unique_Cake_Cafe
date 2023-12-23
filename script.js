@@ -2,6 +2,10 @@ let navbar = document.querySelector('.navbar');
 document.querySelector('#menu-bar').onclick = () => {
   navbar.classList.toggle('active');
 }
+let button = document.getElementById('button_order');
+button.onclick = function(){
+  alert("Exciting News! A cake order option will be launched soon. For Bookings, contact Renu Bansal at\n\nContact Number: 8860858491");
+}
 
 
 
