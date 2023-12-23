@@ -516,6 +516,11 @@ section {
     font-family: 'Dancing Script', cursive;
 
 }
+.subheading{
+    color: #d816f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:300;
+}
 
 .head {
     font-family: 'Playfair Display', serif;
