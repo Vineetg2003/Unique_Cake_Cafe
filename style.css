@@ -758,6 +758,10 @@ section {
         margin-bottom: 2rem;
         font-family: Arial, Helvetica, sans-serif;
     }
+    .home .homeContent .home-btn {
+        height: 3rem;
+        margin-bottom: 8rem;
+    }
     
 }
 
