@@ -715,8 +715,9 @@ section {
 
 @media (max-width: 410px) {
     .egg {
-        font-size: 30px;
-        text-shadow: 2px 2px 4px pink;
+        margin-top: -20px;
+        font-size: 40px;
+        text-shadow: 1px 1px 3px pink;
     }
     
     .home .homeContent h2 {
