@@ -231,6 +231,8 @@ section {
     width: 250px;
     height: 250px;
     /* border: 1000px; */
+    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+    overflow: hidden
 }
 
 .product .product-row .img img:hover {
@@ -289,8 +291,15 @@ section {
 }
 
 .blogs .blogs-row .box .img img {
-    width: 100%;
-    padding: 5rem;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+    /* overflow: hidden */
+    object-fit: cover; 
+    /* padding: 5rem; */
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .blogs .blogs-row .box .content {
@@ -656,6 +665,11 @@ section {
 
 .contact h2 {
     margin-bottom: 3rem;
+}
+#center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact form {
