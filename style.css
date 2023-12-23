@@ -670,6 +670,21 @@ section {
     html {
         font-size: 50%;
     }
+    .blogs .blogs-row .box .img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+        overflow: hidden;
+        object-fit: cover; 
+        /* margin-right: 3rem; */
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #content{
+        text-align: center;
+        margin: 2rem;
+    }
 }
 
 /* Contact Section  */
@@ -679,14 +694,7 @@ section {
     background-size: cover;
     background-position: center center;
 }
-.blogs .blogs-row .box .img img {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
-    overflow: hidden;
-    object-fit: cover; 
-    
-}
+
 
 .contact h2 {
     margin-bottom: 3rem;
