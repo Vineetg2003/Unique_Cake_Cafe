@@ -629,6 +629,13 @@ section {
         background-color: var(--white);
         height: 80vh;
     }
+    .blogs .blogs-row .box .img img {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+        overflow: hidden
+    }
+    
 
     .header .navbar.active {
         right: 0;
@@ -671,6 +678,14 @@ section {
     background: url(images/Pink\ Modern\ Dessert\ Banner.png) no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.blogs .blogs-row .box .img img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+    overflow: hidden;
+    object-fit: cover; 
+    
 }
 
 .contact h2 {
